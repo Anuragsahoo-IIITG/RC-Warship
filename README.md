@@ -1,2 +1,15 @@
 # RC-Warship
-I have created a Remote Controlled Warship using Arduino and nRF-Modules, During the Durga Puja Holidays in my 2nd Semester.
+I created a Remote Controlled Warship using Arduino and nRF-Modules, During the Durga Puja Holidays in my 2nd Semester.
+There were Servos and Relays too.....
+
+
+The Ship could move in any direction in the water(Provided there were no prevailing winds) and also was able to aim in all directions (When Tested before sending into Water).....
+
+Not only does it aim but also, it shoots.....It shoots Orbeez Balls when the right button is pressed on the joystick........The left Joystick is for controlling the direction of the Boat.......
+
+
+and the Right Joystick is for controlling the orientation of the Gun.....
+
+The Remote is powered by a 9V HW Battery and The nRF Module on Board is powered by the 5V Power Supply provided by Arduino Nano.... all these components connected via Jumper Wires on a BreadBoard....
+
+FUTURE PLANS includes........using OpenCv for making the Gun automatic and Precise.

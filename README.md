@@ -12,6 +12,6 @@ And the Right Joystick is for controlling the orientation of the Gun.....
 
 The Remote is powered by a 9V HW Battery and the nRF Module on Board is powered by the 5V Power Supply provided by Arduino Nano .... All these components are connected via Jumper Wires on a BreadBoard ....
 
-![][https://github.com/Anuragsahoo-IIITG/RC-Warship/blob/main/IMG-20250209-WA0001.jpg?raw=true]
+![image alt][https://github.com/Anuragsahoo-IIITG/RC-Warship/blob/main/IMG-20250209-WA0001.jpg?raw=true]
 
 FUTURE PLANS includes........using OpenCv for making the Gun automatic and Precise.

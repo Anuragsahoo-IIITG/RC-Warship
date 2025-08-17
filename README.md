@@ -61,6 +61,8 @@ At the core of the remote is an **Arduino Nano**, paired with an **nRF24L01 wire
 - Double-sided tape for mounting.  
 - Entire box sealed into a **sturdy DIY controller**.  
 
+![Warship_Remote_inner](assets/LabelledRemoteshowingwhereThermocolblocksarepalced.JPG)
+
 ---
 
 ### 🔹 Software & Communication  

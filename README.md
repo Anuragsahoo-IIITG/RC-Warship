@@ -206,7 +206,7 @@ So the buoyant force of a fully submerged 2.5 L bottle increases slightly to abo
 ![Warship_Ushaped](assets/LabelledUshapedstandoftheGun.JPG)
 
 
-Result → Gun could **aim freely in two axes** (forward direction).  
+Result → Gun could **aim freely in two axes** (in the forward direction).  
 
 ![Warship_2Axis](assets/Labelled2AxisRotation.JPG)
 

@@ -77,10 +77,8 @@ On the **boat side**:
 - Values are converted into **motor speeds** and **servo angles** in real-time.  
 
 👉 Full code is available here:  
-- **[Transmitter Code]()**  
-- **[Receiver Code]()**  
-
-*(Links can be added once you upload your code files to the repo.)*  
+- **[Transmitter Code](TransmitterFinal.ino.ino)**  
+- **[Receiver Code](ReceiverBoatFinal.ino.ino)**   
 
 ---
 
@@ -122,6 +120,8 @@ This gave me full control over the design while keeping expenses minimal.
 - **Thermocol** → provided buoyancy and formed the inner frame.  
 - **Sunboard** → used for outer plating and superstructure to give the warship its final form.  
 
+![Warship_Hull](assets/LabelledHulloftheBoat.JPG)
+
 ---
 
 ### ⚙ Internal Components (“Passengers”)  
@@ -134,6 +134,8 @@ Inside the hull were all the critical systems that powered the boat:
 - **Power Source** → three 4V batteries in series (12V total), the heaviest part of the boat.  
 - **Shooting Mechanism** → toy gun mounted on a platform with **servos + relay**.  
 
+![Warship_Internal COmponent]()
+
 ---
 
 ### 🔬 Physics at Work  
@@ -143,6 +145,8 @@ Inside the hull were all the critical systems that powered the boat:
 - Added **2.5 L bottles** on each side for extra stability (initially to counter gun recoil).  
 - Real issue: motors sat too high, not submerged.  
 - **Fix:** partially filled bottles with water → lowered hull until propellers dipped underwater.  
+
+![Warship_Buoyancy](assets/LabelledBuoyancydiagram.JPG)
 
 ### Buoyancy of a 2.5 L Bottle
 
@@ -182,17 +186,29 @@ So the buoyant force of a fully submerged 2.5 L bottle increases slightly to abo
 #### 3. Motor–Propeller Connection  
 - Motor shaft too large for propeller hole.  
 - DIY fix: used a **pen refill + jumper wire + hot glue** as a coupler.  
-- Surprisingly, this hack worked reliably!  
+- Surprisingly, this hack worked reliably!
+
+  ![Warship_Motor_propellor](assets/LabelledPentonicRefill.JPG) 
 
 #### 4. Gun Platform Mechanics  
 - Gun mounted on a **circular rotating thermocol platform** for horizontal aiming (servo-controlled).  
-- Vertical aiming was tricky (servo could only pull downward).  
+- Vertical aiming was tricky (servo could only pull downward).
+
+
+   
 - **Fixes:**  
   - Added **counterweights** behind the gun → naturally pointed upward.  
-  - Servo in front pulled it downward → enabled full vertical motion.  
+  - Servo in front pulled it downward → enabled full vertical motion.
+![Warship_CounterWeight](assets/LabelledSeeSawnatureoftheGun.JPG)
+
+
   - A **U-shaped thermocol frame** stabilized the gun and limited wobble.  
+![Warship_Ushaped](assets/LabelledUshapedstandoftheGun.JPG)
+
 
 Result → Gun could **aim freely in two axes** (forward direction).  
+
+![Warship_2Axis](assets/Labelled2AxisRotation.JPG)
 
 #### 5. Shooting Mechanism  
 - Gun powered continuously, controlled by a **relay switch**.  

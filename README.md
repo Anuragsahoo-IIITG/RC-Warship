@@ -136,6 +136,33 @@ Inside the hull were all the critical systems that powered the boat:
 - Real issue: motors sat too high, not submerged.  
 - **Fix:** partially filled bottles with water → lowered hull until propellers dipped underwater.  
 
+**Buoyancy math for each 2.5 L bottle**
+
+- Displaced volume \(V = 2.5\ \text{L} = 0.0025\ \text{m}^3\)
+- Fresh water density \(\rho \approx 1000\ \text{kg/m}^3\)
+- Gravity \(g \approx 9.81\ \text{m/s}^2\)
+
+**Buoyant force (fully submerged):**  
+\[
+F_b = \rho g V = 1000 \times 9.81 \times 0.0025 \approx 24.5\ \text{N}
+\]
+That’s roughly **2.5 kgf** of upward force **per bottle** (≈ **24.5 N**). With bottles on both sides: **~49 N** total (≈ **5 kgf**).
+
+**If you partially fill the bottle with water (ballast):**  
+- Buoyant force \(F_b\) stays the same (depends on **outside volume**), but **net lift** drops because you’ve added weight.
+- Let \(V_{\text{fill}}\) be the water you put inside (in m³). Net upward force:
+\[
+F_{\text{net}} \approx \rho g (V - V_{\text{fill}}) - m_{\text{plastic}} g
+\]
+- Example (half-filled: \(V_{\text{fill}} = 1.25\ \text{L} = 0.00125\ \text{m}^3\)):  
+  \[
+  F_{\text{net}} \approx 1000 \times 9.81 \times (0.0025 - 0.00125) \approx 12.3\ \text{N}
+  \]
+  Subtract a small amount for the plastic weight (≈ 0.3–0.5 N), giving **~11.8–12.0 N** net lift.
+
+**Seawater note:** In seawater (\(\rho \approx 1025\ \text{kg/m}^3\)), each 2.5 L bottle gives **~25.1 N**.
+
+
 #### 2. Weight Distribution  
 - Initially, components were clustered at the rear → caused backward tilt.  
 - Solution: redistributed weight evenly → achieved better stability.  
@@ -268,16 +295,18 @@ if (radio.available()) {
    - Apply motor control logic.  
    - Update servos.  
    - Trigger gun relay if needed.  
-3. If no data is received, maintain the last state (can be improved with a failsafe).  
+
+3. Fail-Safe Behavior  
+- If **no packet is received** it reverts to a **default safe state**:  
+  - Motors stop.  
+  - Servos hold neutral position.  
+  - Gun relay remains inactive. 
 
 ---
 
 ## 🛡️ Safety Features
 - **Current Implementation**  
-  No explicit failsafe, but the motors only act when new data is received.  
-
-- **Possible Improvement**  
-  Add a timeout check (e.g., using `millis()`)—if no packet is received for a few hundred ms, automatically stop motors.  
+  No explicit failsafe, but the motors only act when new data is received.   
 
 - **Physical Safety**  
   The boat’s thermocol hull ensures buoyancy, making it unsinkable even in case of system failure.  

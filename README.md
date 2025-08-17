@@ -322,7 +322,9 @@ if (radio.available()) {
 - **Swarm Fleet Simulation**: Imagine a fleet of 50 small RC warships working together, coordinated like a “mosquito swarm” to simulate naval combat strategies.  
 - **Operator + Autonomy**: Instead of manually piloting each ship, one operator can assign objectives and the fleet handles coordination automatically.  
 - **Targeting Simulation**: A camera system and targeting interface could be integrated to practice detection, aiming, and precision strikes (in simulation, not real weaponry).  
-
+- Drive it around ponds, lakes, or pools for fun.  
+- Engage in mock naval battles with other RC boats.
+- Can be viewed as a Recreational RC Warship.
 > **Note**: These are purely for simulation, research, or gaming purposes — not actual weaponization.
 
 ---
@@ -331,11 +333,15 @@ if (radio.available()) {
 - **Pisciculture (Fish Farming)**  
   - Dispensing food at set times.  
   - Monitoring water quality (pH, oxygen levels) and alerting when parameters are off.  
-  - Tracking fish movement in large water bodies to aid efficient harvesting.  
+  - Tracking fish movement in large water bodies to aid efficient harvesting.   
 
-- **Crop Farming in Waterlogged Fields**  
-  - Adding wheels and propellers to the platform to support crops like sugarcane, jute, taro, and aquatic plants.  
-  - Acting as a 24×7 farm assistant for monitoring and light-duty automation tasks.  
+### 3. Surveillance & Monitoring  
+- Mount a small FPV/HD camera for live streaming.  
+- Use it to monitor ponds, lakes, fish farms, or restricted areas.  
+
+### 4. Rescue & Retrieval  
+- Attach a hook, net, or small grabber arm to retrieve floating objects.  
+- Deploy it to carry ropes or lightweight payloads during emergencies.  
 
 ---
 

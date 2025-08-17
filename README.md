@@ -36,6 +36,8 @@ My first success was getting **two nRF24L01 modules** (one on the remote, one on
 
 That very first “**Fire!**” moment really felt like being a pirate captain giving the order.  
 
+![Warship_Fire](LabelledPiratesayingFire.JPG)
+
 ---
 
 ### 🔹 Electronics & Structure of the Remote  

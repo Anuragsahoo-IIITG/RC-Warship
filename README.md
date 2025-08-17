@@ -13,7 +13,7 @@ My goal was to turn that curiosity into a **hands-on learning experience** and a
 
 The most rewarding moment was watching everything—mechanical build, wiring, and code—come together into a **dynamic, functional RC warship**. This project not only gave me a working model but also marked the beginning of my journey into **embedded systems and practical electronics**.  
 
-![Warship Front View](assets/Labelled Comparison.jpg)
+![Warship Front View](assets/LabelledComparison.jpg)
 
 
 ## 📡 How I Made the Remote  

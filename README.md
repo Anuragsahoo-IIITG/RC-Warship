@@ -13,14 +13,14 @@ My goal was to turn that curiosity into a **hands-on learning experience** and a
 
 The most rewarding moment was watching everything—mechanical build, wiring, and code—come together into a **dynamic, functional RC warship**. This project not only gave me a working model but also marked the beginning of my journey into **embedded systems and practical electronics**.  
 
-![Warship Front View](assets/LabelledComparison.jpg)
+![Warship Front View](assets/LabelledComparison.JPG)
 
 
 ## 📡 How I Made the Remote  
 
 Designing the **remote control** was as exciting as building the warship itself, because it meant creating an interface that felt **intuitive and reliable**—just like a real ship’s control system. Instead of buying an RC transmitter, I challenged myself to **build one from scratch**, which gave me complete freedom over the layout and functionality.  
 
-![Warship_Remote](IMG-20250209-WA0001)
+![Warship_Remote](IMG-20250209-WA0001.jpg)
 
 ---
 

@@ -80,10 +80,15 @@ On the **boat side**:
 
 One of the toughest parts was ensuring **stable wireless communication**.  
 
-- **Problem:** Frequent signal drops and interference in the 2.4 GHz band.  
+- **Problem:**  
+  Frequent signal drops and interference in the **2.4 GHz band**.  
+
 - **Fixes:**  
-  - Used an **nRF adapter with capacitors** to prevent power brownouts.  
-  - Selected a **stable RF channel** to avoid cross-interference.  
+  - Used an **nRF adapter (or capacitors)** to prevent power brownouts.  
+  - Initially, I powered the **nRF module and servos directly from the Arduino Nano**.  
+  - The output was **unstable** because both servos consumed power spikes during rotation.  
+  - This caused the **nRF module to receive insufficient power**, breaking communication.  
+  - The dropouts even forced me to **reset the Nano** to re-establish connection with the remote.  
 
 After these fixes, the remote became **reliable enough for smooth outdoor operation**.  
 

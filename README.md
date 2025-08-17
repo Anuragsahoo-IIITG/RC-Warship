@@ -136,31 +136,62 @@ Inside the hull were all the critical systems that powered the boat:
 - Real issue: motors sat too high, not submerged.  
 - **Fix:** partially filled bottles with water → lowered hull until propellers dipped underwater.  
 
-**Buoyancy math for each 2.5 L bottle**
+## Buoyancy math for each 2.5 L bottle
 
-- Displaced volume \(V = 2.5\ \text{L} = 0.0025\ \text{m}^3\)
-- Fresh water density \(\rho \approx 1000\ \text{kg/m}^3\)
-- Gravity \(g \approx 9.81\ \text{m/s}^2\)
+- Displaced volume  
+  \[
+  V = 2.5\ \text{L} = 0.0025\ \text{m}^3
+  \]
 
-**Buoyant force (fully submerged):**  
+- Fresh water density  
+  \[
+  \rho \approx 1000\ \text{kg/m}^3
+  \]
+
+- Gravity  
+  \[
+  g \approx 9.81\ \text{m/s}^2
+  \]
+
+**Buoyant force (fully submerged):**
+
 \[
 F_b = \rho g V = 1000 \times 9.81 \times 0.0025 \approx 24.5\ \text{N}
 \]
-That’s roughly **2.5 kgf** of upward force **per bottle** (≈ **24.5 N**). With bottles on both sides: **~49 N** total (≈ **5 kgf**).
 
-**If you partially fill the bottle with water (ballast):**  
-- Buoyant force \(F_b\) stays the same (depends on **outside volume**), but **net lift** drops because you’ve added weight.
-- Let \(V_{\text{fill}}\) be the water you put inside (in m³). Net upward force:
+That’s roughly **2.5 kgf of upward force per bottle (~24.5 N)**.  
+With bottles on both sides: ~49 N total (~5 kgf).
+
+---
+
+### Partially filled bottle (ballast)
+
+- Buoyant force \(F_b\) stays the same (depends on outside volume),  
+  but net lift drops because of added weight.
+
+- Let \(V_{\text{fill}}\) be the water you put inside (in m³).  
+  Net upward force:
+
 \[
 F_{\text{net}} \approx \rho g (V - V_{\text{fill}}) - m_{\text{plastic}} g
 \]
-- Example (half-filled: \(V_{\text{fill}} = 1.25\ \text{L} = 0.00125\ \text{m}^3\)):  
-  \[
-  F_{\text{net}} \approx 1000 \times 9.81 \times (0.0025 - 0.00125) \approx 12.3\ \text{N}
-  \]
-  Subtract a small amount for the plastic weight (≈ 0.3–0.5 N), giving **~11.8–12.0 N** net lift.
 
-**Seawater note:** In seawater (\(\rho \approx 1025\ \text{kg/m}^3\)), each 2.5 L bottle gives **~25.1 N**.
+**Example:** half‑filled (\(V_{\text{fill}} = 1.25\ \text{L} = 0.00125\ \text{m}^3\))  
+
+\[
+F_{\text{net}} \approx 1000 \times 9.81 \times (0.0025 - 0.00125) \approx 12.3\ \text{N}
+\]
+
+Subtracting plastic weight (~0.3–0.5 N), net lift ≈ **11.8–12.0 N**.
+
+---
+
+### Seawater note
+
+In seawater (\(\rho \approx 1025\ \text{kg/m}^3\)):  
+\[
+F_b \approx 25.1\ \text{N per bottle}
+\]
 
 
 #### 2. Weight Distribution  

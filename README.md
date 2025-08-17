@@ -136,62 +136,35 @@ Inside the hull were all the critical systems that powered the boat:
 - Real issue: motors sat too high, not submerged.  
 - **Fix:** partially filled bottles with water → lowered hull until propellers dipped underwater.  
 
-## Buoyancy math for each 2.5 L bottle
+### Buoyancy of a 2.5 L Bottle
 
-- Displaced volume  
-  \[
-  V = 2.5\ \text{L} = 0.0025\ \text{m}^3
-  \]
+-A 2.5 L bottle has a volume of 0.0025 m³.
 
-- Fresh water density  
-  \[
-  \rho \approx 1000\ \text{kg/m}^3
-  \]
+-The density of fresh water is about 1000 kg/m³.
 
-- Gravity  
-  \[
-  g \approx 9.81\ \text{m/s}^2
-  \]
+-Gravitational acceleration is about 9.81 m/s².
 
-**Buoyant force (fully submerged):**
+**So the buoyant force when fully submerged is**:
 
-\[
-F_b = \rho g V = 1000 \times 9.81 \times 0.0025 \approx 24.5\ \text{N}
-\]
+**Buoyant force = ρ × g × V** = 1000 × 9.81 × 0.0025 ≈ 24.5 N
 
-That’s roughly **2.5 kgf of upward force per bottle (~24.5 N)**.  
-With bottles on both sides: ~49 N total (~5 kgf).
+That’s roughly the same as 2.5 kgf of lift per bottle.
+I have bottles on both sides (two 1ltr and one 0.5 ltr bottles on both sides), that gives around 49 N total (~5 kgf).
 
----
+Partially Filled Bottle (as Ballast)
 
-### Partially filled bottle (ballast)
+The buoyant force depends only on the outside volume, but if you add water inside the bottle, the net lift decreases because of the extra weight.
 
-- Buoyant force \(F_b\) stays the same (depends on outside volume),  
-  but net lift drops because of added weight.
+For example, if the bottle is half-filled (1.25 L of water inside):
 
-- Let \(V_{\text{fill}}\) be the water you put inside (in m³).  
-  Net upward force:
+Net upward force ≈ 12.3 N
 
-\[
-F_{\text{net}} \approx \rho g (V - V_{\text{fill}}) - m_{\text{plastic}} g
-\]
+After subtracting the bottle’s plastic weight (~0.3–0.5 N), the effective lift is about 12 N.
 
-**Example:** half‑filled (\(V_{\text{fill}} = 1.25\ \text{L} = 0.00125\ \text{m}^3\))  
+In Seawater
 
-\[
-F_{\text{net}} \approx 1000 \times 9.81 \times (0.0025 - 0.00125) \approx 12.3\ \text{N}
-\]
-
-Subtracting plastic weight (~0.3–0.5 N), net lift ≈ **11.8–12.0 N**.
-
----
-
-### Seawater note
-
-In seawater (\(\rho \approx 1025\ \text{kg/m}^3\)):  
-\[
-F_b \approx 25.1\ \text{N per bottle}
-\]
+Seawater is a bit denser (1025 kg/m³).
+So the buoyant force of a fully submerged 2.5 L bottle increases slightly to about 25.1 N per bottle.
 
 
 #### 2. Weight Distribution  

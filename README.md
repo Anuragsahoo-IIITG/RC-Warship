@@ -20,6 +20,8 @@ The most rewarding moment was watching everything—mechanical build, wiring, an
 
 Designing the **remote control** was as exciting as building the warship itself, because it meant creating an interface that felt **intuitive and reliable**—just like a real ship’s control system. Instead of buying an RC transmitter, I challenged myself to **build one from scratch**, which gave me complete freedom over the layout and functionality.  
 
+![Warship_Remote](IMG-20250209-WA0001)
+
 ---
 
 ### 🔹 Why I Started with the Remote  

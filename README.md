@@ -134,7 +134,7 @@ Inside the hull were all the critical systems that powered the boat:
 - **Power Source** → three 4V batteries in series (12V total), the heaviest part of the boat.  
 - **Shooting Mechanism** → toy gun mounted on a platform with **servos + relay**.  
 
-![Warship_Internal COmponent]()
+![Warship_Internal Component](assets/LabelledAllthecomponents.JPG)
 
 ---
 
@@ -229,6 +229,8 @@ Result → Gun could **aim freely in two axes** (in the forward direction).
   - **Right turn:** increase left motor speed, reduce right.  
   - **Left turn:** increase right motor speed, reduce left.  
 
+![Propulsion_and_Steering](assets/LabelledAllPropulsionandSteering.JPG)
+
 ✅ This gave the warship **excellent maneuverability**, even capable of turning almost on the spot.  
 
 ---
@@ -239,6 +241,8 @@ Result → Gun could **aim freely in two axes** (in the forward direction).
 - Hot-glue sealing applied around all shaft & wire exits.  
 - Worked initially, but… motors weren’t waterproof.  
 - After extended contact with water, the motors **burned out**.  
+
+![Hot_Glued_Motors](assets/LabelledHotGluedMotors.JPG)
 
 ⚠️ Lesson learned: **use marine-grade waterproof motors** for long-term durability.  
 

@@ -313,6 +313,8 @@ if (radio.available()) {
 •	The gun relay is toggled directly from the fire button:
 	digitalWrite(gunPin, data.buttonState);
 
+![Warship_Flowchart](assets/rc_warship_flowchart_large.png)
+
 ---
 
 ## ⚙️ Control System Flow
@@ -365,6 +367,8 @@ if (radio.available()) {
   - Dispensing food at set times.  
   - Monitoring water quality (pH, oxygen levels) and alerting when parameters are off.  
   - Tracking fish movement in large water bodies to aid efficient harvesting.   
+
+![Pisciculture](assets/WaterDispenser.jpeg)
 
 ### 3. Surveillance & Monitoring  
 - Mount a small FPV/HD camera for live streaming.  

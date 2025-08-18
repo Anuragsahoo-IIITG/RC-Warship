@@ -191,7 +191,10 @@ So the buoyant force of a fully submerged 2.5 L bottle increases slightly to abo
   ![Warship_Motor_propellor](assets/LabelledPentonicRefill.JPG) 
 
 #### 4. Gun Platform Mechanics  
-- Gun mounted on a **circular rotating thermocol platform** for horizontal aiming (servo-controlled).  
+- Gun mounted on a **circular rotating thermocol platform** for horizontal aiming (servo-controlled).
+
+![Warship_Gun_Platform_Mechanics](assets/LabelledGunPlatformMechanics.JPG)
+  
 - Vertical aiming was tricky (servo could only pull downward).
 
 
@@ -199,7 +202,7 @@ So the buoyant force of a fully submerged 2.5 L bottle increases slightly to abo
 - **Fixes:**  
   - Added **counterweights** behind the gun → naturally pointed upward.  
   - Servo in front pulled it downward → enabled full vertical motion.
-![Warship_CounterWeight](assets/LabelledSeeSawnatureoftheGun.JPG)
+![Warship_CounterWeight](assets/LabelledSeeSawnatureoftheGun..JPG)
 
 
   - A **U-shaped thermocol frame** stabilized the gun and limited wobble.  

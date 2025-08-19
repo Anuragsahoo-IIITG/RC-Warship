@@ -1,6 +1,8 @@
 ## Why I Built It  
 
-Building this RC warship was the perfect project to merge my passions for **naval history, model building, and electronics**.  
+Building this RC warship was the perfect project to merge my passions for **naval history, model building, and electronics**. 
+
+🎥 **Demo Video:** [Watch on LinkedIn](https://www.linkedin.com/posts/anuragsahooiiitg_rcboat-embeddedsystems-arduino-activity-7363243826049642498-ph32?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEUPUs4BoMkNzV_gEMUQyDOiyVkbyLPoc48)  
 
 I’ve always been fascinated by detailed ships in games like *Assassin’s Creed IV: Black Flag* and movies like *Pirates of the Caribbean*, where naval battles and futuristic mechanisms spark the imagination. That inspiration, combined with my engineering curiosity, pushed me to go beyond making a static replica—I wanted a **fully operational, remote-controlled warship**.  
 
